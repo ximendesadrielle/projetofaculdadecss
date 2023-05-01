@@ -1,18 +1,10 @@
-h1 {
-    text-align: center;
-}
-
 * {
     background-color: #8d5d78;
     padding-top: 7px;
     color: aliceblue;
 }
 
-img {
-    border-radius: 12px;
-}
-
-p {
+h1 {
     text-align: center;
 }
 
@@ -22,3 +14,16 @@ h2 {
     border-radius: 25px;
     padding: 12px;
 }
+
+p {
+    text-align: center;
+}
+
+img {
+    border-radius: 12px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
