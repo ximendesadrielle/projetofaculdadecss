@@ -1,0 +1,12 @@
+
+*{
+    background-color: rgb(247, 194, 229);
+    color: rgb(83, 6, 65);
+}
+
+.enviar{
+    background-color: rgb(233, 146, 199);
+    border-radius: 100px;
+}
+
+.enviar:hover{ background-color: rgb(193, 58, 226);}

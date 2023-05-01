@@ -1,0 +1,55 @@
+* {
+    background-color: rgb(63, 3, 43);
+    padding-top: 3px;
+    color: aliceblue;
+   
+}
+
+img {
+    border-radius: 19000px;
+  
+ 
+}
+ 
+h1 {
+    text-align: left;
+
+}
+
+
+
+
+
+a {
+    background-color: rgb(250, 129, 214);
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.5s;
+    color: #eee;
+    
+}
+
+a:hover {
+    background-color: rgb(136, 32, 115);
+   
+}
+@keyframes animacao {
+    from {background-color: rgb(250, 129, 214);}
+    to {background-color: rgb(63, 3, 43);}
+
+}
+
+.animation-div {
+    width: 110px;
+    height: 60px;
+    background-color: aqua;
+    animation-name: animacao;
+    animation-duration: 5s;
+    animation-iteration-count: infinite; 
+    -webkit-animation-name: animacao; 
+    -webkit-animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+    border-radius: 10px;
+
+}

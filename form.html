@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Entre em contato comigo!</title>
+</head>
+<body>
+    <h3>Contato</h3>
+    <hr>
+    <h4>Assunto</h4>
+    <form action="" method="">
+      <table>
+        <tbody>
+          <tr>
+            <td><label for="nome">Nome:</label></td>
+            <br>
+            <td> <input placeholder="Escreva aqui seu nome." type="text" name="nome" id="nome"></td>
+          </tr>
+          <tr>
+            <td><label for="telefone">Telefone:</label></td>
+            <br>
+            <td><input placeholder="Escreva aqui seu telefone." type="telefone" name="telefone" id="telefone"><br></td>
+          </tr>
+          <tr>
+            <td><label for="assunto">Assunto:</label></td>
+            <br>
+            <td><select name="assunto" id="assunto">
+                <option value="produção">Estágio</option>
+                <option value="produção" >Trabalho</option> 
+                <option value="produção">Atividades </option>
+              </select></td>
+          </tr>
+          <tr>
+            <td><label for="dataentrega">Informe a data de entrega nescessária:
+                <br>
+              </label></td>
+            <td><input type="date" name="dataevento" id="dataevento"></td>
+          </tr>
+          <tr>
+            <td><label for="mensagem">Mensagem:</label></td>
+            <br>
+            <td><textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Escreva aqui sua mensagem."></textarea></td>
+          </tr>
+          <tr>
+            <td colspan="2"><input class="enviar" type="submit" value="Enviar"></td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+</body>
+</html>
